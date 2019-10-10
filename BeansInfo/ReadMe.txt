@@ -1,4 +1,4 @@
-The program prints out information about JavaBean components. The program reads from the standard input and prints to the standard output. The program reads names of components (each one on a separate line) and prints information about them - the component name, all its properties, listeners, and methods. If a type of a property cannot be discovered, then the property is not printed out. Output formating is as follows:
+The program prints out information about JavaBean components. It reads from the standard input and prints to the standard output. The program reads names of components (each one on a separate line) and prints information about them - the component name, all its properties, listeners, and methods. If a type of a property cannot be discovered, then the property is not printed out. Output formating is as follows:
 
 JavaBean Name: <full_name_of_component>
 [readonly] [bound] [constrained] property <full_name_of_type> <property_name>
