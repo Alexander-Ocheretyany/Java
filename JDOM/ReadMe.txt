@@ -1,4 +1,4 @@
-Thr program prints out an overview of cross-links within an XML document formated as a DocBook. The program reads the DocBook document from the standard input and to the standard output, it prints out an overview of cross-links with names of sections among which the cross-links are set.
+The program prints out an overview of cross-links within an XML document formated as a DocBook. The program reads the DocBook document from the standard input and to the standard output, it prints out an overview of cross-links with names of sections among which the cross-links are set.
 
 The cross-links are created via the <link> element. The cross-link target is a unique ID in the \texttt{linkend} attribute. The document is structured into section that are formed by the <section> element. Each section has its title specified in the <title> element. Sections can be arbitrarily nested. Cross-links are always in a section; the same is true for cross-links targets.
 
