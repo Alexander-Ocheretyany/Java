@@ -7,3 +7,4 @@
 5. BeansInfo - the program prints out information about JavaBean components.
 6. JDOM - the program prints out an overview of cross-links within an XML document formated as a DocBook.
 7. ReflectionAPI - the program prints out information about Java types.
+8. Snake - a famous game (unfinished).
