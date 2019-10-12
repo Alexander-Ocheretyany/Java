@@ -6,3 +6,4 @@
 4. Probability - a project for the "Probability theory" course. A user "wins" when a dice shows 5 or 6, loses otherwise. To show how the distribution function behaves we can also roll a dice 100 000 times and see its histogram in on-line mode.
 5. BeansInfo - the program prints out information about JavaBean components.
 6. JDOM - the program prints out an overview of cross-links within an XML document formated as a DocBook.
+7. ReflectionAPI - the program prints out information about Java types.
