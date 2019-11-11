@@ -8,3 +8,4 @@
 6. JDOM - the program prints out an overview of cross-links within an XML document formated as a DocBook.
 7. ReflectionAPI - the program prints out information about Java types.
 8. Snake - a famous game (unfinished).
+9. RESTAPI - a REST service for saving DB connections and firther usage of these connections for data retrieval. 
