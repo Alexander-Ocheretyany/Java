@@ -9,11 +9,13 @@ Database for persistence is MySQL. Before its usage one must put the details of 
 
 **REST API:**
 
-/connection (GET) - get the whole "connections" table.
-/connection/{id} (GET) -  specify a certain ID to get a sole record from "connections" table.
-/connection (POST) -  here, in the request body, a user must specify all columns to create a record - name, hostname, port, databasename, username and password.
-/connection/{id} (PUT) - specify the ID of a record to be changed and in the request body define a new record.
-/connection/{id} (DELETE) - specify the ID of a record you want to delete and it will be deleted.
+1. Path "/connection":
+
+      /connection (GET) - get the whole "connections" table.
+      /connection/{id} (GET) -  specify a certain ID to get a sole record from "connections" table.
+      /connection (POST) -  here, in the request body, a user must specify all columns to create a record - name, hostname, port, databasename,   username and password.
+      /connection/{id} (PUT) - specify the ID of a record to be changed and in the request body define a new record.
+      /connection/{id} (DELETE) - specify the ID of a record you want to delete and it will be deleted.
 
 2. Path "/schemas/{id}" - gets all schemas from the database that is stored in "connections"table under id given.
 3. Path "/tables/{id}" - gets all tables from the database that is stored in "connections"table under id given.
