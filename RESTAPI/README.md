@@ -2,7 +2,7 @@
 
 A web based database browser (similar to desktop application DBeaver) with basic functionality and for single database vendor only. Browser is able to register multiple database connections and browse their data and structure.
 
-The program is a RESTful service with its own database.
+The program is a RESTful service with its own database. Built using Spring-boot, Maven, Hibernate and Tomcat.
 
 Database for persistence is MySQL. Before its usage one must put the details of their database into "src/main/resources/application.properties" file (hostname, port, database name, username, password).
 
