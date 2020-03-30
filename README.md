@@ -9,3 +9,4 @@
 7. ReflectionAPI - the program prints out information about Java types.
 8. Snake - a famous game (unfinished).
 9. RESTAPI - a RESTful service for saving DB connections and firther usage of these connections for data retrieval.
+10. MovieStack - a small program that allows the user to create a list of movies they want to watch and then the program will randomly makes a choice for the user which movie to watch.
