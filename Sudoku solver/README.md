@@ -1,3 +1,5 @@
+![Alt text](./GUI.png?raw=true "Sudoku solver")
+
 To work with the program:
 
 1. Read a file with the extension '.sud'. It is a plain text file of the special structure: it must consist of 9 rows and 9 columns where each column is separated by a single space character. Each element of this matrix is a digit from 0 to 9 where 0 represents an empty space and 1-9 are values for the fixed places of the puzzle.
